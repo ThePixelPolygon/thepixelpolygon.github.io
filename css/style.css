@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.video {
+    height: 35vh;
+}
+
+.video-card {
+    height: 25vh;
+}
+
+#btn-skip {
+    position: absolute;
+    top: -2000px;
+    z-index: 1; 
+}
+
+#btn-skip:focus {
+    position: block;
+    top: 0px;
+}
+
+.twitter-button {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.twitter-button:hover {
+    background-color: #125d8b;
+    color: white;
+}
+
+.discord-button {
+    background-color: #5865F2;
+    color: white;
+}
+
+.discord-button:hover {
+    background-color: #3d46ad;
+    color: white;
+}
+
+.mastodon-button {
+    background-color: #563ACC;
+    color: white;
+}
+
+.mastodon-button:hover {
+    background-color: #3e2992;
+    color: white;
+}
+
+.carousel-caption {
+    background-color: #0000009f;
+}
+
+.page-header {
+    text-align: center;
+    color: white;
+}
+
+#logo {
+    max-height: 100px;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover, a.nav-link:focus {
+    color: #a3a3a3;
+}
+
+.homepage-video {
+    display: flex;
+    margin: 0 auto;
+}
+
+footer i {
+    color: white !important;
+}
